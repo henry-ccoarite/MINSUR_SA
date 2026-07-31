@@ -1,0 +1,10 @@
+[27-May-2026 14:35:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '73714357' for key 'dni' in /home/bpuma/public_html/grup02/grupo01/modules/clientes/index.php:20
+Stack trace:
+#0 /home/bpuma/public_html/grup02/grupo01/modules/clientes/index.php(20): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/bpuma/public_html/grup02/grupo01/modules/clientes/index.php on line 20
+[27-May-2026 14:36:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '73714357' for key 'dni' in /home/bpuma/public_html/grup02/grupo01/modules/clientes/index.php:20
+Stack trace:
+#0 /home/bpuma/public_html/grup02/grupo01/modules/clientes/index.php(20): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/bpuma/public_html/grup02/grupo01/modules/clientes/index.php on line 20

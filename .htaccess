@@ -1,0 +1,17 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirigir a login si no hay sesión (solo para directorio raíz)
+DirectoryIndex login.php index.php
+
+# Seguridad básica
+<FilesMatch "\.(sql|log|env|md)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Headers de seguridad
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>

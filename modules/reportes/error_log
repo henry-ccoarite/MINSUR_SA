@@ -1,0 +1,10 @@
+[27-May-2026 12:43:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.fecha_pago' in 'WHERE' in /home/bpuma/public_html/grup02/grupo01/modules/reportes/pagos.php:33
+Stack trace:
+#0 /home/bpuma/public_html/grup02/grupo01/modules/reportes/pagos.php(33): mysqli->query()
+#1 {main}
+  thrown in /home/bpuma/public_html/grup02/grupo01/modules/reportes/pagos.php on line 33
+[27-May-2026 13:34:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.fecha_pago' in 'WHERE' in /home/bpuma/public_html/grup02/grupo01/modules/reportes/pagos.php:33
+Stack trace:
+#0 /home/bpuma/public_html/grup02/grupo01/modules/reportes/pagos.php(33): mysqli->query()
+#1 {main}
+  thrown in /home/bpuma/public_html/grup02/grupo01/modules/reportes/pagos.php on line 33

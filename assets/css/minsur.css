@@ -1,0 +1,490 @@
+/* ============================================
+   MINSUR S.A. - ESTILOS ADICIONALES
+   ============================================ */
+
+
+/* ============================================ */
+
+
+/* ÍCONOS FONT AWESOME                          */
+
+
+/* ============================================ */
+
+.sb-link i {
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: inherit;
+}
+
+.sb-link.active i {
+    color: #e94560;
+}
+
+.btn i {
+    margin-right: 6px;
+}
+
+.btn-sm i {
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+.btn-icon i {
+    margin-right: 0;
+    font-size: 14px;
+}
+
+.topbar-chip i {
+    margin-right: 6px;
+}
+
+.sb-sect i {
+    margin-right: 8px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* ============================================ */
+
+
+/* DASHBOARD - TARJETAS MODERNAS                */
+
+
+/* ============================================ */
+
+.dash-card-modern {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 24px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.dash-card-modern:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.dash-card-modern .icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.dash-card-modern .number {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.dash-card-modern .label {
+    font-size: 13px;
+    color: var(--text-2);
+}
+
+.dash-card-modern .trend {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.dash-card-modern .trend.up {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.dash-card-modern .trend.down {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.dash-card-modern .bg-shape {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.05;
+}
+
+.dash-card-modern.blue .bg-shape {
+    background: #1e40af;
+}
+
+.dash-card-modern.green .bg-shape {
+    background: #16a34a;
+}
+
+.dash-card-modern.red .bg-shape {
+    background: #dc2626;
+}
+
+.dash-card-modern.purple .bg-shape {
+    background: #7c3aed;
+}
+
+.dash-card-modern.orange .bg-shape {
+    background: #ea580c;
+}
+
+
+/* ============================================ */
+
+
+/* TABLAS MODERNAS                              */
+
+
+/* ============================================ */
+
+.table-modern {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 13px;
+}
+
+.table-modern thead th {
+    background: var(--bg);
+    padding: 12px 16px;
+    font-weight: 600;
+    color: var(--text-2);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--border);
+}
+
+.table-modern thead th:first-child {
+    border-radius: 8px 0 0 0;
+}
+
+.table-modern thead th:last-child {
+    border-radius: 0 8px 0 0;
+}
+
+.table-modern tbody td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text);
+}
+
+.table-modern tbody tr {
+    transition: all 0.2s;
+}
+
+.table-modern tbody tr:hover {
+    background: var(--bg);
+}
+
+
+/* ============================================ */
+
+
+/* BADGES CON ÍCONOS                            */
+
+
+/* ============================================ */
+
+.bdg i {
+    margin-right: 4px;
+    font-size: 11px;
+}
+
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.status.active {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.status.inactive {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.status.pending {
+    background: #fef3c7;
+    color: #ca8a04;
+}
+
+.status.critical {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.status.medium {
+    background: #fef3c7;
+    color: #ca8a04;
+}
+
+.status.low {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+
+/* ============================================ */
+
+
+/* BOTONES MODERNOS                             */
+
+
+/* ============================================ */
+
+.btn-modern {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.btn-modern:hover {
+    transform: translateY(-2px);
+}
+
+.btn-modern-primary {
+    background: #1e40af;
+    color: white;
+}
+
+.btn-modern-primary:hover {
+    background: #1d3a99;
+    box-shadow: 0 8px 25px rgba(30, 64, 175, 0.3);
+}
+
+.btn-modern-success {
+    background: #16a34a;
+    color: white;
+}
+
+.btn-modern-success:hover {
+    background: #15803d;
+    box-shadow: 0 8px 25px rgba(22, 163, 74, 0.3);
+}
+
+.btn-modern-danger {
+    background: #dc2626;
+    color: white;
+}
+
+.btn-modern-danger:hover {
+    background: #b91c1c;
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.3);
+}
+
+.btn-modern-outline {
+    background: transparent;
+    color: var(--text-2);
+    border: 1px solid var(--border);
+}
+
+.btn-modern-outline:hover {
+    background: var(--bg);
+    border-color: var(--primary);
+}
+
+
+/* ============================================ */
+
+
+/* ANIMACIONES                                  */
+
+
+/* ============================================ */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-fade {
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+.dash-card-modern {
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+.dash-card-modern:nth-child(1) {
+    animation-delay: 0.05s;
+}
+
+.dash-card-modern:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.dash-card-modern:nth-child(3) {
+    animation-delay: 0.15s;
+}
+
+.dash-card-modern:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+
+/* ============================================ */
+
+
+/* SIDEBAR MEJORADO                             */
+
+
+/* ============================================ */
+
+.sidebar {
+    background: linear-gradient(180deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    border-right: none;
+}
+
+.sb-link {
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.sb-link:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.sb-link.active {
+    background: rgba(233, 69, 96, 0.15);
+    color: #e94560;
+}
+
+.sb-link.active i {
+    color: #e94560;
+}
+
+.sb-sect {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.sb-brand {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sb-name {
+    color: white;
+}
+
+.sb-sub {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.sb-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sb-uname {
+    color: white;
+}
+
+.sb-urole {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.sb-avatar {
+    background: #e94560;
+}
+
+
+/* ============================================ */
+
+
+/* SCROLLBAR PERSONALIZADA                      */
+
+
+/* ============================================ */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-h);
+}
+
+
+/* ============================================ */
+
+
+/* RESPONSIVE                                   */
+
+
+/* ============================================ */
+
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    .sidebar.open {
+        transform: translateX(0);
+    }
+    .main-w {
+        margin-left: 0;
+    }
+    .topbar-menu-btn {
+        display: flex;
+    }
+    .content {
+        padding: 16px;
+    }
+}
